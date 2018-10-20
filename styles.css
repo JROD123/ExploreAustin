@@ -30,7 +30,7 @@ button:focus{
     height:40px;
     position: relative;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 .circle:focus{
@@ -44,8 +44,8 @@ button:focus{
 .line{
     position: absolute;
     height:4px;
-    width:74%;
-    background: #ff750c;
+    width:64%;
+    background: white;
     border-radius: 8px;
     transition: all cubic-bezier(0.26, 0.1, 0.27, 1.55) 0.35s;
 }
@@ -178,7 +178,7 @@ body{
 }
 .Navbtn{
     border: #ff750c;
-    color:#ff750c;
+    color:white;
     padding: 8px;
     text-align: right;
     text-decoration: none;
@@ -202,7 +202,7 @@ transform: scale(.5px);
 
 .Navbtn:hover{
     text-decoration: none;
-    color:#ff750c;
+    color:white;
     font-weight:bold;
     border-bottom: 3px solid #ff750c; 
 }
@@ -404,7 +404,7 @@ h6{
     background-color: #ff750c;
     margin-top: 10px;
     margin-bottom: 5px;
-    margin-left: 0px;
+    margin-left: -11px;
 }
 
 .donate-btn:hover {
@@ -431,13 +431,14 @@ h6{
     line-height: 13px;
     margin-right: 20px;
     padding-bottom: 4px;
-    padding-top: 4px;
+    padding-top: 3px;
 }
 
 .donate-btn-right.x-anchor {
     line-height: 50px;
-    padding-top: 5px;
+    padding-top: 3px;
     margin-right: -4px;
+    margin-left:1px;
 }
 
 .donate-btn-right.x-anchor:hover {
@@ -1028,6 +1029,66 @@ button.close{
     font-family:'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 700;
+}
+
+.Fbicon{
+    display: inline-block;
+    background: transparent url("../ExploreAustin/images/FBlogo.svg") no-repeat 0 0;
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 7px;
+    margin-bottom: 12px;
+}
+
+.Fbicon:hover{
+    background: transparent url("../ExploreAustin/images/FBlogoorange.svg") no-repeat 0 0;
+}
+
+.Igicon{
+    display: inline-block;
+    background: transparent url("../ExploreAustin/images/Iglogo.svg") no-repeat 0 0;
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 7px;
+    margin-bottom: 12px;
+}
+
+.Igicon:hover{
+    background: transparent url("../ExploreAustin/images/Iglogoorange.svg") no-repeat 0 0;
+}
+
+.Tricon{
+    display: inline-block;
+    background: transparent url("../ExploreAustin/images/Trlogo.svg") no-repeat 0 0;
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 7px;
+    margin-bottom: 12px;
+}
+
+.Tricon:hover{
+    background: transparent url("../ExploreAustin/images/Trlogoorange.svg") no-repeat 0 0;
+}
+
+.Yticon{
+    display: inline-block;
+    background: transparent url("../ExploreAustin/images/Ytlogo.svg") no-repeat 0 0;
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 7px;
+    margin-bottom: 12px;
+}
+
+.Yticon:hover{
+    background: transparent url("../ExploreAustin/images/Ytlogoorange.svg") no-repeat 0 0;
+}
+
+#smicon:hover{
+    background-color:orange;
 }
 
 @media (max-width: 576px){
