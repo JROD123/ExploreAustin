@@ -73,12 +73,4 @@ $("#wrapper").click(function () {
 
 $(".nav-link").click(function () {
     $(".icon").toggleClass("close");
-});
-
-var fader = new ScrollMagic.Controller();
-
-var stage = new ScrollMagic.Scene({
-    triggerElement: '.parallax1'
-})
-    .setClassToggle('.parallax1', 'hide')
-    .addTo(fader);  
+}); 
