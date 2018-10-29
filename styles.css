@@ -434,6 +434,10 @@ h6{
     padding-top: 3px;
 }
 
+.donate-btn-middle.x-anchor:focus {
+    text-decoration: none;
+}
+
 .donate-btn-right.x-anchor {
     line-height: 50px;
     padding-top: 3px;
@@ -442,6 +446,10 @@ h6{
 }
 
 .donate-btn-right.x-anchor:hover {
+    text-decoration: none;
+}
+
+.donate-btn-right.x-anchor:focus {
     text-decoration: none;
 }
 
@@ -1169,12 +1177,24 @@ button.close{
         text-decoration: none;
     }
 
+    .donate-btn-middle.x-anchor:focus {
+        text-decoration: none;
+    }
+
     .r24-8.x-anchor, .r24-9.x-anchor, .donate-btn-right.x-anchor {
         border-width: 3px;
         color:white;
         border-style: solid;
         box-shadow: inset 0em 0em 0em 2.25px;
         text-align: center;
+    }
+
+    .r24-8.x-anchor, .r24-9.x-anchor, .donate-btn-right.x-anchor:focus {
+        text-decoration: none;
+    }
+
+    .donate-btn-right.x-anchor:focus {
+        text-decoration: none;
     }
 
     .youcan{

@@ -61,6 +61,16 @@ $(document).ready(function () {
         })
     })
 
+    $(document).ready(function(){
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 3800){
+                $(".contactimg").css({"opacity" : "1"})
+            }
+            else {
+                $(".contactimg").css({"opacity" : "0"})
+            }
+        })
+    })
 })
 
 $("Navbtn").click(function () {
